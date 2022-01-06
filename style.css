@@ -1,0 +1,73 @@
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h4{
+  color: rgb(34, 14, 211);
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin-bottom: 0px;
+
+}
+
+p{
+  color: rgb(25, 14, 126);
+  font-family: "arial";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+input{
+  outline: none;
+  border: white;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  color: rgb(34, 45, 145)
+}
+
+button{
+  outline: none;
+  background-color: rgb(5, 12, 83);
+  border: rgb(2, 33, 77);
+  color: rgb(241, 241, 241);
+  font-size: 1.3rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+html {
+  height: 100%;
+  width: 1000px;
+  background-color: hsla(200,40%,30%,.4);
+  background-image:    
+    url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+    url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+    url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+  background-position: 
+    0 20%,
+    0 100%,
+    0 50%,
+    0 100%,
+    0 0;
+  background-size: 
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  animation: 50s para infinite linear;
+  }
+
+@keyframes para {
+  100% {
+    background-position: 
+      -5000px 20%,
+      -800px 95%,
+      500px 50%,
+      1000px 100%,
+      400px 0;
+    }
+  }
