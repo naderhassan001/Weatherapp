@@ -1,16 +1,43 @@
-# Simple Weather API
-#### Project Scope:  Input your location and click search to look up the temperature using the Open Weather Map API.
-#### View here: https://svdev-weather.netlify.com
-![](simpleWeatherApi/simpleWeather.png)
+<h1 align="center">My Weather App</h1>
+<p align="center">
+  This program uses an API call to fetch the weather from any given city. This program works for all international cities as well. Simply type in the name of the city and click the question mark. 
+</p>
 
-# How it was made:
-#### HTML5, CSS3, Javascript E6, API, JSON
+## Links
 
-# Optimizations:
-#### Enter either a city or country to retrieve weather data. 
+- [Repo](<https://github.com/naderhassan001/Weatherapp> "<project-name> Repo")
 
-# Lesson Learned: 
-#### How to retrieve desired data from an object in an API. 
+- [Live](<http://myweatherappannimated.s3-website-us-east-1.amazonaws.com/> "Live View")
 
-# Source: 
-#### Open Weather Map: https://openweathermap.org/api
+## Screenshots
+
+![Home Page](weather.png "Home Page")
+
+## Options for Running the Program 
+
+In the project directory, you have a few options.
+
+You can open the index.html file in a web browser or with the extention "liver server" in VsCode or your favorite editor. 
+
+
+## Built With
+
+- JavaScript
+- HTML
+- CSS
+
+## Future Updates
+
+- [ ] I am changing the API that is called. I am planning another one that allows for both the city and country. 
+## Author
+
+**Nader Hassan**
+
+- [Profile](https://github.com/naderhassan001 "Nader Hassan")
+- [Email](mailto:nader.hassan001@gmail.com "Hi!")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
